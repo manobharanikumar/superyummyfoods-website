@@ -1,0 +1,123 @@
+<html>
+
+<head>
+<title>HTML Tabel Tags</title>
+<style>
+	body{
+		background-color:blue;
+		padding:10px;
+		
+	}
+	.table1{
+			padding:20px;
+			color:yellow;
+			width:100%;
+			box-shadow: 0 0 20px white;
+			text-align:center;
+			
+	
+	}
+	.table2{
+	
+		padding:50px;
+		color:white;
+		box-shadow:0 0 20px orange;
+		text-align:center;
+		margin:50px;
+	}
+	
+	.table2 thead{
+		background-color:orange;
+		
+	}
+
+</style>
+</head>
+
+<body align="center">
+	<h2> Sample Table</h2>
+	<table align="center" class="table1" border="3">
+		<thead>
+			<tr>
+				<th>SNO</th>
+				<th colspan="2">NAME & COURSE</th>
+				<th>LOCATION</th>
+				
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>ram</td>
+				<td>b.sc</td>
+				<td>Bangalore</td>
+				
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>sam</td>
+				<td>b.com</td>
+				<td>chennai</td>
+				
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>omkar</td>
+				<td>M.sc</td>
+				<td>hyderabad</td>
+				
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>ramesh</td>
+				<td>bca</td>
+				<td>Bangalore</td>
+				
+			</tr>
+		</tbody>
+	
+	</table>
+	<table border="4" align="center" class="table2">
+		<thead>
+			<tr>
+				<th>SNO</th>	
+				<th>NAME</th>
+				<th colspan="2">COURSE & LOCATION </th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td rowspan="2">1</td>
+				<td>ram</td>
+				<td>b.sc</td>
+				<td>Bangalore</td>
+				
+			</tr>
+			<tr>
+				<td>sam</td>
+				<td>b.com</td>
+				<td>chennai</td>
+				
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>omkar</td>
+				<td>M.sc</td>
+				<td>hyderabad</td>
+				
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>ramesh</td>
+				<td>bca</td>
+				<td>Bangalore</td>
+				
+			</tr>
+		</tbody>
+	
+	</table>
+
+</body>
+</html>
